@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/info.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div  class="Chat-main">
+        <aside>
+            <div class="user-profile">
+                 <img src="assets/images/34.png" class="user-image" alt="Image Of User">
+                
+            </div>
+             <p class="User-name">Prashant Upadhyay</p>
+             <nav>
+                <ul class="nav-main">
+                    <li class="active"><a href="#"  class="nav-lists">
+                        <i class="ri-home-9-line"></i>
+                        <span class="nav-title">Home</span> </a>
+                    </li>
+                    <li><a href="#"  class="nav-lists">
+                        <i class="ri-message-3-line"></i>
+                        <span class="nav-title">chat</span> </a>
+                    </li>
+                    <li><a href="#"  class="nav-lists">
+                        <i class="ri-account-circle-line"></i>
+                        <span class="nav-title">contact</span> </a>
+                    </li>
+                    <li><a href="#"  class="nav-lists">
+                        <i class="ri-notification-3-line"></i>
+                        <span class="nav-title">notification</span> </a>
+                    </li>
+                    <li><a href="#"  class="nav-lists">
+                        <i class="ri-calendar-check-line"></i>
+                        <span class="nav-title">calendar</span> </a>
+                    </li>
+                    <li><a href="#"  class="nav-lists">
+                        <i class="ri-settings-4-line"></i>
+                        <span class="nav-title">setting</span> </a>
+                    </li>
+                </ul>         
+             </nav>
+        </aside>
+        <main>
+        <section class="chat-section">
+
+          <div class="chat-info">
+            <!-- Info Header -->
+            <div class="info-header d-flex justify-content-space-between align-items-center">
+              <div>
+                <p class="info-title">Chats</p>
+                <div class="dropdown">
+                  <div class="dropdown-parent">
+                    <span id="drop-main">Recent Chats</span>
+                    <i class="ri-arrow-down-s-line"></i>
+                  </div>
+                  <div class="drop-down-child-box">
+                    <a href="#" class="drop-down-child">Recent Chats</a>
+                    <a href="#" class="drop-down-child">Today</a>
+                    <a href="#" class="drop-down-child">Tomorrow</a>
+                    <a href="#" class="drop-down-child">Yesterday</a>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn-new-chat">
+                <i class="ri-add-line"></i> Create New Chat
+              </a>
+            </div>
+          
+            <!-- Info Card -->
+             <div class="search-box">
+            <div class="info-card">
+              <div class="info-card info-card-header">
+              <div class="info-content-input">
+                <i class="ri-search-2-line"></i>
+                <input type="text" placeholder="Search">
+              </div>
+              <div class="dropdown">
+                <div class="dropdown-parent">
+                  <span id="drop-main">Messages</span>
+                  <i class="ri-arrow-down-s-line"></i>
+                </div>
+                <div class="drop-down-child-box">
+                  <a href="#" class="drop-down-child">Message</a>
+                  <a href="#" class="drop-down-child">File</a>
+                  <a href="#" class="drop-down-child">Image</a>
+                  <a href="#" class="drop-down-child">Video</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          
+            <!-- Info Card List -->
+            <div class="info-card-list">
+              <div class="info-card">
+                 <div class="info-card-header">
+                    <div class="left-info">
+                       <img src="assets/images/24.png" alt="user-image" class="user-chat-img">
+                       <div>
+                          <p class="username">Upadhyay Prashant</p>
+                          <p class="status">... Typing</p>
+                       </div>
+                    </div>
+                    <div class="right-info">
+                       <p class="duration">1 minute ago</p>
+                    </div>
+                 </div>
+                 <div class="info-card-content">
+                    <div class="info-card-body">
+                       <p class="info-card-text">
+                    f Goods and Evils; finibus may. 
+                       </p>
+                       <a href="" class="count">12</a>
+                    </div>
+                 </div>
+              </div>
+              <div class="info-card">
+                <div class="info-card-header">
+                   <div class="left-info">
+                      <img src="assets/images/24 (1).png" alt="user-image" class="user-chat-img">
+                      <div>
+                         <p class="username">Upadhyay Prashant</p>
+                         <p class="status">... Typing</p>
+                      </div>
+                   </div>
+                   <div class="right-info">
+                      <p class="duration">1 minute ago</p>
+                   </div>
+                </div>
+                <div class="info-card-content">
+                   <div class="info-card-body">
+                      <p class="info-card-text">
+                         Most of its text is made up from sections 1.10.32–3 of Cicero's De finibus bonorum et malorum (On the Boundaries of Goods and Evils; finibus may also be translated as purposes). 
+                      </p>
+                      <a href="" class="count">12</a>
+                   </div>
+                </div>
+             </div>
+             <div class="info-card">
+              <div class="info-card-header">
+                 <div class="left-info">
+                    <img src="assets/images/Mask Group.png" alt="user-image" class="user-chat-img">
+                    <div>
+                       <p class="username">Upadhyay Prashant</p>
+                       <p class="status">... Typing</p>
+                    </div>
+                 </div>
+                 <div class="right-info">
+                    <p class="duration">1 minute ago</p>
+                 </div>
+              </div>
+              <div class="info-card-content">
+                 <div class="info-card-body">
+                    <p class="info-card-text">
+                       Most of its text is made up from sections 1.10.32–3 of Cicero's De finibus bonorum et malorum (On the Boundaries of Goods and Evils; finibus may also be translated as purposes). 
+                    </p>
+                    <a href="" class="count">12</a>
+                 </div>
+              </div>
+           </div>
+           <div class="info-card">
+            <div class="info-card-header">
+               <div class="left-info">
+                  <img src="assets/images/34.png" alt="user-image" class="user-chat-img">
+                  <div>
+                     <p class="username">Upadhyay Prashant</p>
+                     <p class="status">... Typing</p>
+                  </div>
+               </div>
+               <div class="right-info">
+                  <p class="duration">1 minute ago</p>
+               </div>
+            </div>
+            <div class="info-card-content">
+               <div class="info-card-body">
+                  <p class="info-card-text">
+                     Most of its text is made up from sections 1.10.32–3 of Cicero's De finibus bonorum et malorum (On the Boundaries of Goods and Evils; finibus may also be translated as purposes). 
+                  </p>
+                  <a href="" class="count">12</a>
+               </div>
+            </div>
+         </div>
+           </div>
+          </div>
+          
+            <div class="chat-box">
+                  <div class="card">
+                          <div class="card-header d-flex justify-content-space-between align-items-center">
+                                <div class="user-info d-flex align-items-center align-items-center  gap-6">
+                                     <img src="assets/images/Mask Group.png" class="user-chat-img" alt="">
+                                     <div class="user-title-box">
+                                             <p class="username">Niki Upadhyay</p>
+                                             <p class="status">last online 5 hours ago</p>
+                                     </div>
+                                </div>
+                                <div class="card-cta d-flex gap-3">
+                                    <a href="#" class="btn-tool-bar" ><i class="ri-attachment-2"></i></a>
+                                     <a href="#" class="btn-tool-bar" ><i class="ri-more-2-fill"></i></a>
+                                </div>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="card-body">
+                            <div class="user-chat">
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Hello! Kaise ho aaj?</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">12 min ago</p>
+                                </div>
+                              
+                                <div class="outgoing-box">
+                                  <div class="inner-box">
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                    <p class="message-box outgoing-text">Hey! Main theek hoon, tum kaise ho?</p>
+                                  </div>
+                                  <p class="outgoing-time">11 min ago</p>
+                                </div>
+                              
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Main bhi theek hoon. Work kaisa chal raha hai?</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">10 min ago</p>
+                                </div>
+                              
+                                <div class="outgoing-box">
+                                  <div class="inner-box">
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                    <p class="message-box outgoing-text">Sab theek hai, thoda busy hoon, par manage ho raha hai.</p>
+                                  </div>
+                                  <p class="outgoing-time">9 min ago</p>
+                                </div>
+                              
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Achha! Tumhare projects kaisey chal rahe hain?</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">8 min ago</p>
+                                </div>
+                              
+                                <div class="outgoing-box">
+                                  <div class="inner-box">
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                    <p class="message-box outgoing-text">Projects thoda challenging hain, lekin sab theek chal raha hai. Tumhare kya plans hain?</p>
+                                  </div>
+                                  <p class="outgoing-time">7 min ago</p>
+                                </div>
+                              
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Main bhi kaafi busy hoon, par sab manage ho raha hai.</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">6 min ago</p>
+                                </div>
+                              
+                                <div class="outgoing-box">
+                                  <div class="inner-box">
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                    <p class="message-box outgoing-text">Acha hai! Tumhara kaam kis field mein hai?</p>
+                                  </div>
+                                  <p class="outgoing-time">5 min ago</p>
+                                </div>
+                              
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Main software development mein hoon. Tumhara kya field hai?</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">4 min ago</p>
+                                </div>
+                              
+                                <div class="outgoing-box">
+                                  <div class="inner-box">
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                    <p class="message-box outgoing-text">Main bhi tech industry mein hoon, abhi ek naye project pe kaam kar raha hoon.</p>
+                                  </div>
+                                  <p class="outgoing-time">3 min ago</p>
+                                </div>
+                              
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Wah! Kya project hai? Batao zara.</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">2 min ago</p>
+                                </div>
+                              
+                                <div class="outgoing-box">
+                                  <div class="inner-box">
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                    <p class="message-box outgoing-text">Ek app bana ra hoon jo user ke health data ko track karega aur unko recommendations dega.</p>
+                                  </div>
+                                  <p class="outgoing-time">1 min ago</p>
+                                </div>
+                              
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Sounds amazing! Main bhi health-related projects mein interested hoon.</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">Just now</p>
+                                </div>
+                              
+                                <div class="outgoing-box">
+                                  <div class="inner-box">
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                    <p class="message-box outgoing-text">Haan! Tumhein bhi is project pe kaam karna chahiye, tumhara experience kaafi useful hoga.</p>
+                                  </div>
+                                  <p class="outgoing-time">Just now</p>
+                                </div>
+                              
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Bilkul! Agar mujhe time mila toh main zaroor help karunga.</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">Just now</p>
+                                </div>
+                              
+                                <div class="outgoing-box">
+                                  <div class="inner-box">
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                    <p class="message-box outgoing-text">Great! Milke kaam karna hamesha mazaa aata hai.</p>
+                                  </div>
+                                  <p class="outgoing-time">Just now</p>
+                                </div>
+                              
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Haan, sahi kaha! Achha, tumhare weekend plans kya hain?</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">Just now</p>
+                                </div>
+                              
+                                <div class="outgoing-box">
+                                  <div class="inner-box">
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                    <p class="message-box outgoing-text">Weekend pe kuch special nahi, bas ghar pe relax karunga. Tumhare plans?</p>
+                                  </div>
+                                  <p class="outgoing-time">Just now</p>
+                                </div>
+                              
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Main bhi ghar pe hi hoon. Thoda time apne liye nikalunga.</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">Just now</p>
+                                </div>
+                              
+                                <div class="outgoing-box">
+                                  <div class="inner-box">
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                    <p class="message-box outgoing-text">Yeh accha hai! Relax hona zaroori hai. Enjoy your weekend!</p>
+                                  </div>
+                                  <p class="outgoing-time">Just now</p>
+                                </div>
+                              
+                                <div class="incoming-box">
+                                  <div class="inner-box">
+                                    <p class="message-box incoming-text">Thanks! Tum bhi apna weekend enjoy karo!</p>
+                                    <a href="#" class="more-icon-chat"><i class="ri-more-line"></i></a>
+                                  </div>
+                                  <p class="incoming-time">Just now</p>
+                                </div>
+                              </div>
+                              
+                              
+                              <div class="user-chat-cta d-flex justify-content-space-between align-items-center">
+                                <!-- "Add" button -->
+                                <a href="#" class="chat-cta cta-add" id="add-btn">
+                                    <i class="ri-add-line"></i> <!-- Icon inside the button -->
+                                  </a>
+                                <!-- Input field -->
+                                <input type="text" id="chatInput" placeholder="Type your message here..." />
+                              
+                                <div class="d-flex gap-4">
+                                  <!-- Emoji button -->
+                                  <a href="#" class="chat-cta cta-emoji">
+                                    <i class="ri-emoji-sticker-line fs-16"></i>
+                                  </a>
+                                  <!-- Send button -->
+                                  <a href="#" class="chat-cta cta-add">
+                                    <i class="ri-send-plane-fill"></i>
+                                  </a>
+                                </div>
+                                
+                                <!-- More icons container (Initially hidden) -->
+                                <div class="more-icons" id="more-icons">
+                                  <a href="#" class="chat-cta more-icon-Add"><i class="ri-film-line"></i></a>
+                                  <a href="#" class="chat-cta  more-icon-Add"><i class="ri-multi-image-line"></i></a>
+                                  <a href="#" class="chat-cta  more-icon-Add"><i class="ri-file-list-3-line"></i></a>
+                                </div>
+                              </div>
+                              
+                          </div>
+                  </div>
+            </div>
+
+        </section>
+        </main>
+    </div>
+    <script src="Script/script.js"></script>
+    <script src="Script/sidenav.js"></script>
+   
+</html>

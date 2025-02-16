@@ -1,0 +1,195 @@
+/* General Styling */
+
+.info-header ,.search-box{
+padding: 1.6rem;
+}
+/* Info Title */
+.info-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #0d1c2e;
+  line-height: 1.4;
+}
+
+/* Button - Create New Chat */
+.btn-new-chat {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  background: linear-gradient(135deg, #60a9f6, #2a8bf2);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 1.4rem 2rem;
+  border-radius: 0.545rem;
+  transition: background 0.3s;
+}
+
+.btn-new-chat:hover {
+  background: linear-gradient(135deg, #2a8bf2, #60a9f6);
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-parent {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #707C97;
+  cursor: pointer;
+}
+
+.drop-down-child-box {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: #fff;
+  width: 12rem;
+  box-shadow: 0px 3px 4px -2px #d3e9ff91;
+  z-index: 1;
+}
+
+.dropdown:hover .drop-down-child-box {
+  display: flex;
+}
+
+.drop-down-child-box a {
+  text-decoration: none;
+  padding: 0.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #707C97;
+  line-height: 1.5;
+  transition: background 0.3s, color 0.3s;
+}
+
+.drop-down-child-box a:hover {
+  background: linear-gradient(135deg, #60a9f6, #2a8bf2);
+  color: #fff;
+}
+
+/* Info Card */
+.info-card{
+  background-color: #fff;
+  border-radius: 0.6rem;
+  transition: all 0.3s;
+}
+.info-card-header{
+  display: flex;
+  justify-content: space-between;
+}
+.info-card .dropdown{
+  padding: 1.8rem 3.4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #707C97;
+  line-height: 1.5;
+
+}
+.info-content-input {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.8rem 3.4rem;
+  width: 34rem;
+  border-right: 2px solid #f5f4fb;
+}
+.info-content-input i{
+  font-size: 1.8rem;
+  color: #707C97;
+}
+
+.info-content-input input {
+  border: none;
+  font-size: 1.4rem;
+  color: #707c97;
+  width: 100%;
+}
+
+.info-content-input input:focus {
+  outline: none;
+}
+
+
+/* Info Card List */
+.info-card-list .info-card {
+  padding: 2.6rem 3.6rem;
+}
+.info-card .left-info{
+  display: flex;
+  gap: 1rem;
+}
+.username {
+  color: #0d1c2e;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2
+}
+
+.info-card-active{
+  background: linear-gradient(135deg, #60a9f6, #2a8bf2);
+}
+.info-card-active .status{
+ color: #fff;
+}
+.info-card-active .info-card-body .info-card-text{
+  color: #fff;
+ }
+ .info-card-active .duration{
+  color: #fff;
+ }
+.status {
+  color: #2a8bf2;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.duration {
+  font-size: 1.2rem;
+    font-weight: 400;
+    color: #707c97;
+    margin-top: 0.8rem;
+  color: #707c97;
+}
+
+.info-card .info-card-body{
+  display: flex;
+    gap: 0.8rem;
+   margin-top: 0.4rem;
+}
+.info-card-body .info-card-text{
+ color: #707C97;
+ line-height: 1.6;
+ font-size: 1.2rem;
+ font-weight: 500;
+ width: 37rem;
+
+}
+.info-card-body .count{
+  background: #FF3366;
+  padding: 0.6rem;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 0.6px;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-card-list{
+  overflow-y: auto;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0rem 0.6rem 0rem 1.6rem;
+}

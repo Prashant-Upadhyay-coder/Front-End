@@ -1,0 +1,144 @@
+.card{
+    background-color: #fff;
+  }
+  .card-header{
+    background-color: #FAFBFF;
+    padding: 2rem 4rem;
+  }
+  .card-body{
+   padding: 0.2rem 4rem;
+   position: relative;
+  }
+  .user-chat-img{
+    width: 5.4rem;
+    border-radius: 50%;
+  }
+  .btn-tool-bar:link,
+  .btn-tool-bar:visited{
+    background: #fff;
+    font-size: 24px;
+    padding: 0.8rem;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #707C97;
+    box-shadow: 0px 4px 8px 2px rgba(42, 139, 242, 0.07);
+   transition: all 0.3s;
+
+  }
+  .btn-tool-bar:active,
+  .btn-tool-bar:hover{
+    background-color: #2A8BF2;
+    color:#fff;
+
+  }
+  .user-title-box .username{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+  }
+  .user-title-box .status{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color:#2A8BF2 ;
+  }
+  .divider{
+    height: 0.2rem;
+    background-color: rgba(112, 124, 151, 0.1);
+  }
+
+.user-chat {
+    overflow-y: auto;
+    height: 65vh;
+    max-height: 100%; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 0.8rem; 
+    padding-right: 10px; 
+    box-sizing: content-box; 
+    transition: padding-right 0.3s ease; 
+  }
+ 
+/* Webkit-based browsers (Chrome, Edge, Safari) */
+* {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: transparent transparent; /* Initially hide the track and thumb in Firefox */
+}
+
+*::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 8px; /* Height for horizontal scrollbar */
+  background-color: transparent; /* Always hide the track */
+}
+
+/* The thumb is always visible with low opacity by default */
+*::-webkit-scrollbar-thumb {
+  background: #b7bdcb; /* Thumb color */
+  border-radius: 8px; /* Rounded thumb */
+  opacity: 0.3; /* Low opacity to make it less visible initially */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+/* Increase thumb visibility when hovering over the scrollable container */
+*:hover::-webkit-scrollbar-thumb {
+  opacity: 1; /* Full opacity when hovering over the container */
+}
+
+/* For Firefox: Keep track hidden by default */
+*:hover {
+  scrollbar-color: #b7bdcb transparent; /* Thumb visible on hover */
+}
+
+
+
+  .inner-box{
+   display: flex;
+   gap: 2rem;
+   align-items: center;
+  }
+  .outgoing-box{
+   align-self: flex-end;
+  }
+  .incoming-time{
+   justify-self: start;
+   font-size: 1.2rem;
+     line-height: 1.6;
+     font-weight: 400;
+   color: rgba(112, 124, 151, 0.70);
+  }
+  .outgoing-time{
+   justify-self: end;
+   font-size: 1.2rem;
+     line-height: 1.6;
+     font-weight: 400;
+   color: rgba(112, 124, 151, 0.70);
+  }
+  .more-icon-chat{
+   text-decoration: none;
+     font-size: 1.8rem;
+     font-weight: 600;
+     color: #B7BDCB;
+  }
+  .message-box{
+   display: inline-block; 
+   padding: 1.6rem 2rem;
+   font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 500;
+    letter-spacing: 0.2px; 
+    word-wrap: break-word; 
+  }
+  .incoming-text{
+    background: linear-gradient(135deg, #60A9F6, #2A8BF2);
+    color: #fff;
+    border-radius: 0px 6px 6px 6px;
+    box-shadow: 4px 4px 8px -4px #2A8BF2;
+  }
+  .outgoing-text{
+    border: 1px solid rgba(112, 124, 151, 0.25);
+    color: #707C97;
+    border-radius: 6px 6px 0px 6px;
+  }
+ 
